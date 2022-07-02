@@ -12,6 +12,7 @@ class YahooAPIHelper:
     def __init__(self):
         self._config = yahoo_config
         self._config_checks_out = self._check_config()
+        print("Yahoo API Helper instantiated")
 
     def get_quote(self, symbols: str = "GME") -> dict:
         """

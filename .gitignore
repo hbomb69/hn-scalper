@@ -2,3 +2,4 @@ yahoo_config.py
 .idea/
 .idea/*
 *.pyc
+*.csv
