@@ -27,8 +27,6 @@ class YahooAPIHelper:
         response = self._get_from_api(url=quote_endpoint, params=params)
         response = self._parse_quote(response)
 
-        print(response)
-
         return response
 
     def _get_from_api(self, url: str, params: dict, headers: dict = None ) -> str:
